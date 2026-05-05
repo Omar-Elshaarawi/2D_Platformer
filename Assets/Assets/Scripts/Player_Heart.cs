@@ -11,6 +11,9 @@ public class PlayerHealth : MonoBehaviour
     public float deathY = -10f;
     public GameObject deathScreen;
 
+    public AudioSource deathSound;
+    public AudioSource backgroundMusic; // NEW
+
     private Vector3 spawnPoint;
     private bool isDead = false;
 
@@ -25,6 +28,13 @@ public class PlayerHealth : MonoBehaviour
         if (deathScreen != null)
         {
             deathScreen.SetActive(false);
+        }
+
+        if (backgroundMusic != null)
+        {
+            backgroundMusic.loop = true;
+            backgroundMusic.spatialBlend = 0f;
+            backgroundMusic.Play();
         }
 
         Time.timeScale = 1f;
@@ -111,6 +121,19 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("Player died");
 
+        if (backgroundMusic != null)
+        {
+            backgroundMusic.Stop();
+        }
+
+        if (deathSound != null)
+        {
+            deathSound.ignoreListenerPause = true;
+            deathSound.spatialBlend = 0f;
+            deathSound.volume = 1f;
+            deathSound.Play();
+        }
+
         if (deathScreen != null)
         {
             deathScreen.SetActive(true);
@@ -130,6 +153,8 @@ public class PlayerHealth : MonoBehaviour
         {
             movement.enabled = false;
         }
+
+        Time.timeScale = 0f;
     }
 
     public void RestartGame()
