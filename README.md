@@ -7,12 +7,6 @@ To win the game, the player must make it to the end of the game to the flag, and
 Omar Elshaarawi made the base game and set up the main character figure, main character animation, and game code for the character and platforms. 
 Oscar Avlear Yanez and Samuel Morales work on the Main Scene Background and Overworld Map Level with grass land level with trees that had a requiring precis jumping over void pits.
 
-EXAMPLE DELETE ONCE DONE
-This project uses assets from the Unity Asset store and Mixamo 
-Assets used from Unity Asset Store: 
-"Iron Juggernaut" by IRON SPEAR. https://assetstore.unity.com/packages/3d/characters/iron-juggernaut-325797 
-"Giant Monster Model - Golem" by Kevin Iglesias. https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/giant-monster-model-golem-278960 
-"Hand RailGun" by Alienworld. https://assetstore.unity.com/packages/3d/props/guns/hand-railgun-59877
+The following website (craftpix) was used by Oscar and I (Samuel) to find and search for the assets that we use throughout our game that includes the terrain, the background layers, as well as the items that we have throughout in regards to the bridges trees, gems, flag, and rocks that we laid out.
 
-Assets used from Mixamo: 
-"Parasite L Starkie". https://www.mixamo.com/#/?page=1&query=zombie&type=Character "Yaku J Ignite". https://www.mixamo.com/#/?page=1&query=zombie&type=Character
+https://craftpix.net/?srsltid=AfmBOoqWzrX-1OlQiP_m5Cic4qMIz9zj0bX7QFWdfluY60l6H-kQWey4
