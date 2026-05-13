@@ -5,7 +5,7 @@ The player can collect four different gems, and once they are collected, they wi
 once they die by falling off the map.
 To win the game, the player must make it to the end of the game to the flag, and to lose the game, the player has to die three times, and they can either restart the game or quit. 
 Omar Elshaarawi made the base game and set up the main character figure, main character animation, and game code for the character and platforms. 
-
+Oscar Avlear Yanez and Samuel Morales work on the Main Scene Background and Overworld Map Level with grass land level with trees that had a requiring precis jumping over void pits.
 
 EXAMPLE DELETE ONCE DONE
 This project uses assets from the Unity Asset store and Mixamo 
