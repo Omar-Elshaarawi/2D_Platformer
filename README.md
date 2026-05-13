@@ -1,4 +1,4 @@
-Group Members: Omar Elshaarawi Christian Gomez Diaz Samuel Morales Oscar Avelar Yanez
+Group Members: Omar Elshaarawi, Christian Gomez Diaz, Samuel Morales, and Oscar Avelar Yanez
 
 Game Description: The name of the game is Berserk Leap, and it is a jumping platformer where the player can jump over various objects and platforms.
 The player can collect four different gems, and once they are collected, they will increase the player's score. The player also has three lives and will respawn at the beginning of the game, 
